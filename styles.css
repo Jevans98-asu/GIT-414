@@ -1,0 +1,47 @@
+/* CSS BY JEREMY EVANS*/
+/* IMPORTED FONTS */
+
+/* CSS REST */
+
+/* ROOT VARIABLES */
+
+/*  GLOBAL STYLES*/
+body { 
+    font-family: Arial, sans-serif; margin: 0; padding: 0; 
+}
+header, nav, main, footer { 
+    padding: 1rem; 
+}
+
+/* MEDIA QUERY (medium) */
+@media only screen and (min-width: 600px) {
+
+    nav ul { 
+        display: flex; gap: 1rem; 
+    }
+    main {
+        background: yellow;
+    }
+}
+
+/* MEDIA QUERY (large) */
+@media only screen and (min-width: 900px) {
+
+    body { 
+        max-width: 900px; margin: auto; 
+    }
+    h1 { 
+        font-size: 3rem; 
+    }
+    main {
+        background: blue;
+    }
+}
+
+/* MEDIA QUERY (xl) */
+@media only screen and (min-width: 1200px) {
+
+    main {
+        background: red;
+    }
+}
